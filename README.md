@@ -1,12 +1,11 @@
-<div align="center">
 
 # Solana TAHIKO
 
 </div>
 
-![Solana TAHIKO Cover 1 (3)](https://github.com/user-attachments/assets/cfa380f6-79d9-474d-9852-3e1976c6de70)
+![397842549-cfa380f6-79d9-474d-9852-3e1976c6de70](https://github.com/user-attachments/assets/dbc03917-0dcb-49d8-a6ab-9777b798308c)<div align="center">
 
-An open-source toolkit for connecting AI agents to Solana protocols. Now, any agent, using any model can autonomously perform 15+ Solana actions:
+An open-source tooltahiko for connecting AI agents to Solana protocols. Now, any agent, using any model can autonomously perform 15+ Solana actions:
 
 - Trade tokens
 - Launch new tokens 
@@ -72,16 +71,16 @@ Anyone - whether an SF-based AI researcher or a crypto-native builder - can brin
 ## 📦 Installation
 
 ```bash
-npm install solana-agent-kit
+npm install solana-agent-tahiko
 ```
 
 ## Quick Start
 
 ```typescript
-import { SolanaAgentKit, createSolanaTools } from "solana-agent-kit";
+import { SolanaAgenttahiko, createSolanaTools } from "solana-agent-tahiko";
 
 // Initialize with private key and optional RPC URL
-const agent = new SolanaAgentKit(
+const agent = new SolanaAgenttahiko(
   "your-wallet-private-key-as-base58",
   "https://api.mainnet-beta.solana.com",
   "your-openai-api-key"
@@ -96,7 +95,7 @@ const tools = createSolanaTools(agent);
 ### Deploy a New Token
 
 ```typescript
-import { deploy_token } from "solana-agent-kit";
+import { deploy_token } from "solana-agent-tahiko";
 
 const result = await deploy_token(
   agent,
@@ -110,7 +109,7 @@ console.log("Token Mint Address:", result.mint.toString());
 ### Create NFT Collection
 
 ```typescript
-import { deploy_collection } from "solana-agent-kit";
+import { deploy_collection } from "solana-agent-tahiko";
 
 const collection = await deploy_collection(agent, {
   name: "My NFT Collection",
@@ -128,7 +127,7 @@ const collection = await deploy_collection(agent, {
 ### Swap Tokens
 
 ```typescript
-import { trade } from "solana-agent-kit";
+import { trade } from "solana-agent-tahiko";
 import { PublicKey } from "@solana/web3.js";
 
 const signature = await trade(
@@ -143,7 +142,7 @@ const signature = await trade(
 ### Lend Tokens
 
 ```typescript
-import { lendAsset } from "solana-agent-kit";
+import { lendAsset } from "solana-agent-tahiko";
 import { PublicKey } from "@solana/web3.js";
 
 const signature = await lendAsset(
@@ -155,7 +154,7 @@ const signature = await lendAsset(
 ### Stake SOL
 
 ```typescript
-import { stakeWithJup } from "solana-agent-kit";
+import { stakeWithJup } from "solana-agent-tahiko";
 
 const signature = await stakeWithJup(
   agent,
@@ -166,7 +165,7 @@ const signature = await stakeWithJup(
 ### Fetch Token Price
 
 ```typescript
-import { fetchPrice } from "solana-agent-kit";
+import { fetchPrice } from "solana-agent-tahiko";
 
 const price = await fetchPrice(
   agent,
@@ -182,7 +181,7 @@ console.log("Price in USDC:", price);
 import {
   sendCompressedAirdrop,
   getAirdropCostEstimate,
-} from "solana-agent-kit";
+} from "solana-agent-tahiko";
 import { PublicKey } from "@solana/web3.js";
 
 (async () => {
@@ -249,7 +248,7 @@ Send an SPL token airdrop to many recipients at low cost via ZK Compression.
 
 ## Dependencies
 
-The toolkit relies on several key Solana and Metaplex libraries:
+The tooltahiko relies on several key Solana and Metaplex libraries:
 
 - @solana/web3.js
 - @solana/spl-token
@@ -270,4 +269,4 @@ MIT License
 
 ## Security
 
-This toolkit handles private keys and transactions. Always ensure you're using it in a secure environment and never share your private keys.
+This tooltahiko handles private keys and transactions. Always ensure you're using it in a secure environment and never share your private keys.
