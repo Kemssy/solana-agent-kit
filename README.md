@@ -1,10 +1,10 @@
 <div align="center">
 
-# Solana Agent Kit
+# Solana TAHIKO
 
 </div>
 
-![Solana Agent Kit Cover 1 (3)](https://github.com/user-attachments/assets/cfa380f6-79d9-474d-9852-3e1976c6de70)
+![Solana TAHIKO Cover 1 (3)](https://github.com/user-attachments/assets/cfa380f6-79d9-474d-9852-3e1976c6de70)
 
 An open-source toolkit for connecting AI agents to Solana protocols. Now, any agent, using any model can autonomously perform 15+ Solana actions:
 
