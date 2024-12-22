@@ -245,28 +245,3 @@ Stake SOL with Jupiter to earn rewards.
 #### `sendCompressedAirdrop(agent, mintAddress, amount, recipients, priorityFeeInLamports?, shouldLog?)`
 
 Send an SPL token airdrop to many recipients at low cost via ZK Compression.
-
-## Dependencies
-
-The tooltahiko relies on several key Solana and Metaplex libraries:
-
-- @solana/web3.js
-- @solana/spl-token
-- @metaplex-foundation/mpl-token-metadata
-- @metaplex-foundation/mpl-core
-- @metaplex-foundation/umi
-- @lightprotocol/compressed-token
-- @lightprotocol/stateless.js
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to contribute to this project.
-
-## License
-
-MIT License
-
-## Security
-
-This tooltahiko handles private keys and transactions. Always ensure you're using it in a secure environment and never share your private keys.
